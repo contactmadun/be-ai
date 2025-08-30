@@ -1,0 +1,36 @@
+[
+  {
+    "kode_error": "5D7C200",
+    "nama_masalah": "Inisialisasi Gagal",
+    "deskripsi": "Terjadi kegagalan saat uang yang disetor melewati modul Bunch Checker (BC) setelah divalidasi.",
+    "alur_proses": "Uang masuk melalui CSM -> Validasi di validator -> **Gagal saat melewati sensor di BC** -> Uang seharusnya masuk ke TSK.",
+    "kemungkinan_penyebab": [
+      "Sensor pada modul BC kotor atau terhalang debu/kertas.",
+      "Ada sobekan uang atau benda asing yang menyangkut di jalur BC.",
+      "Kabel sensor BC terlepas atau rusak."
+    ],
+    "langkah_perbaikan": [
+      "Buka unit setoran tunai dan lakukan pembersihan pada seluruh area sensor BC menggunakan kuas halus dan udara bertekanan.",
+      "Periksa secara visual jalur antara validator dan TSK, pastikan tidak ada benda yang menghalangi.",
+      "Lakukan 'BC Sensor Test' dari menu diagnostik untuk memastikan sensor berfungsi."
+    ],
+    "tingkat_urgensi": "Sedang"
+  },
+  {
+    "kode_error": "570D100",
+    "nama_masalah": "Tarikan Gagal dan Masuk reject",
+    "deskripsi": "Terjadi kegagalan saat uang yang ditarik melewati modul Bunch Checker (BC) setelah divalidasi.",
+    "alur_proses": "Uang masuk melalui CSM -> Validasi di validator -> **Gagal saat melewati sensor di BC** -> Uang seharusnya masuk ke TSK.",
+    "kemungkinan_penyebab": [
+      "Sensor pada modul BC kotor atau terhalang debu/kertas.",
+      "Ada sobekan uang atau benda asing yang menyangkut di jalur BC.",
+      "Kabel sensor BC terlepas atau rusak."
+    ],
+    "langkah_perbaikan": [
+      "Buka unit setoran tunai dan lakukan pembersihan pada seluruh area sensor BC menggunakan kuas halus dan udara bertekanan.",
+      "Periksa secara visual jalur antara validator dan TSK, pastikan tidak ada benda yang menghalangi.",
+      "Lakukan 'BC Sensor Test' dari menu diagnostik untuk memastikan sensor berfungsi."
+    ],
+    "tingkat_urgensi": "Sedang"
+  }
+]
