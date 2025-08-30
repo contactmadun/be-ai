@@ -55,6 +55,10 @@ const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 //     console.log(`Server berjalan di port ${PORT}`);
 // });
 
+app.get('/', (req, res) => {
+    res.send('API berjalan dengan baik! Silakan gunakan metode POST di endpoint /ask.');
+});
+
 app.post('/ask', async (req, res) => {
     try {
         const { errorCode } = req.body;
